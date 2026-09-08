@@ -46,24 +46,25 @@ const globalStyles = `
 // --- DATA ---
 const PERSONAL_DATA = {
   name: "Giffani Rizky Febrian",
-  headline: "Data Analyst focused on Operations, Logistics, and Quality Improvement",
-  shortIntro: "Turning complex operational data into actionable insights to improve efficiency, reduce errors, and support better decision-making.",
+  headline: "Data Analyst Enthusiast focused on Business Intelligence, Operations, and Quality Improvement",
+  shortIntro: "Turning complex business & operational data into actionable insights to improve efficiency, reduce errors, and support better decision-making.",
   email: "giffaniriz25@gmail.com",
   phone: "6283845871899",
   linkedin: "https://www.linkedin.com/in/giffanifebrian",
-  location: "Surabaya & Madiun, Jawa Timur, Indonesia"
+  github: "https://www.github.com/giffaniriz25feb",
+  location: "East Java, Indonesia"
 };
 
 const ABOUT_TEXT = [
-  "I am a final-year Statistics undergraduate at Institut Teknologi Sepuluh Nopember (ITS) with a strong focus on data analytics in operational and logistics environments.",
-  "Through hands-on experience in transportation and supply chain systems, I have developed the ability to transform raw operational data into structured insights that improve efficiency, accuracy, and decision-making.",
-  "I am particularly interested in building data-driven systems that do not just analyze performance, but actively contribute to process improvement and organizational impact."
+  "I am a Statistics graduate from Institut Teknologi Sepuluh Nopember (ITS) with hands-on experience in data analytics, reporting, and process automation through operational internships at Perum BULOG and PT PELNI.",
+  "Proficient in Python, SQL, R, and Excel, I specialize in data processing, visualization, machine learning, and statistical analysis, applying these skills to real-world problems including NLP, time series forecasting, and service quality monitoring.",
+  "I am passionate about building data-driven systems that transform complex data into actionable insights, and I am actively seeking opportunities in Data Analytics, Business Intelligence, and Operations Analytics."
 ];
 
 const SKILLS = [
-  { category: "Programming", items: ["Python (Pandas, Selenium)", "R (Skripting, Shiny)", "Google Apps Script", "Java Script"] },
-  { category: "Statistical Software", items: ["IBM SPSS", "IBM AMOS", "Minitab", "SAS"] },
-  { category: "Tools & Technologies", items: ["Excel", "PDFMiner", "CIS Web System"] },
+  { category: "Data Analysis & Programming", items: ["Python (Pandas, Selenium)", "R (Skripting, Shiny)", "Excel", "SQL"] },
+  { category: "Statistical Methods", items: ["Statistical Quality Monitoring", "Time Series Forecasting", "Natural Language Processing", "Deep Learning & Machine Learning"] },
+  { category: "Automation & Tools", items: ["Google Apps Script", "MySQL Workbench", "SPSS", "SAS"] },
   { category: "Soft Skills", items: ["Event Planning", "Public Speaking", "Stakeholder Communication", "Leadership"] }
 ];
 
@@ -71,36 +72,36 @@ const EXPERIENCES = [
   {
     role: "Operations & Logistics Analyst Intern",
     company: "Perum BULOG – Madiun Branch Office",
-    date: "March 2026 - Present",
-    description: "Gaining hands-on exposure to Indonesia’s national food logistics and supply chain operations at the branch level, with a focus on data-driven monitoring and operational efficiency.",
+    date: "March 2026 – May 2026",
+    description: "Supported national food logistics, commodity distribution, and operational reporting through data recording, dashboard monitoring, and ERP workflow exposure.",
 
     logo: "/experience/logos/bulog.png",
     image: "/experience/images/bulog.jpg",
 
     impacts: [
-      "Processed and analyzed logistics and distribution data for operational reporting",
-      "Supported supply chain monitoring and stock movement tracking",
-      "Assisted in data validation and reporting workflows for decision support"
+      "Monitored food supply, commodity distribution, and stock tracking using web-based logistics dashboards",
+      "Gained exposure to enterprise ERP systems and operational data workflows to support decision-making",
+      "Maintained structured operational records, document workflows, and daily logistics coordination across government supply chain activities"
     ],
 
-    tags: ["Logistics", "Data Analysis", "Supply Chain", "Reporting"]
+    tags: ["Logistics", "Supply Chain", "ERP Systems", "Data Monitoring", "Operations"]
   },
   {
-    role: "Assistant Lecturer of Statistical Data Analysis",
-    company: "Institut Teknologi Sepuluh Nopember (ITS)",
-    date: "August 2025 - December 2025",
-    description: "Assisted in delivering computer-based statistical analysis practicum sessions and guided students in applying analytical methods using various statistical tools.",
+    role: "Statistical Data Analysis Course Assistant Lecturer",
+    company: "Department of Statistics ITS – Surabaya, Indonesia",
+    date: "August 2025 – December 2025",
+    description: "Delivered statistical computing instruction and guided undergraduate students through hands-on data analysis, debugging, and real-world application workflows.",
 
     logo: "/experience/logos/its.png",
     image: "/experience/images/aslec-sda.jpg",
 
     impacts: [
-      "Facilitated practicum sessions using R, Python, SAS, SPSS, and Minitab",
-      "Guided students in data processing, visualization, and interpretation",
-      "Supported development of analytical thinking through hands-on exercises"
+      "Delivered statistical computing instruction using R, Python, SPSS, and SAS, helping students improve their mastery of statistical methods",
+      "Developed structured practicum learning materials and guided exercises aligned with real-world data applications",
+      "Provided hands-on laboratory support including code debugging, troubleshooting analytical workflows, and guiding data visualization"
     ],
 
-    tags: ["Teaching", "Data Analysis", "Statistics", "Mentoring"],
+    tags: ["Teaching", "R", "Python", "SPSS", "SAS", "Data Analysis"],
 
     link: {
       title: "Statistical Analysis Learning Materials",
@@ -112,21 +113,21 @@ const EXPERIENCES = [
     }
   },
   {
-    role: "Commercial and Passenger Transport Operations Intern",
+    role: "Commercial & Passenger Transport Operations Intern",
     company: "PT. PELNI (Persero) – Surabaya Branch Office",
-    date: "July 2025 - August 2025",
-    description: "Supported daily passenger transport operations and improved reporting workflows through automation and data processing.",
+    date: "July 2025",
+    description: "Automated core operational reporting workflows and processed multi-voyage transport data to optimize operational efficiency and data structure.",
 
     logo: "/experience/logos/pelni.png",
     image: "/experience/images/pelni-image.png",
 
     impacts: [
-      "Processed transaction and logistics data for operational records",
-      "Developed automation workflow using Google Apps Script to streamline reporting",
-      "Improved efficiency of data handling and reporting processes"
+      "Automated passenger and cargo manifest processing via Google Apps Script, drastically cutting processing time from 2–4 days to 10–30 minutes per manifest",
+      "Built Python data extraction pipelines (Pandas & PDFMiner) to convert unstructured PDF manifests into structured Excel datasets",
+      "Consolidated multi-voyage transport data and established a voyage-based classification system for improved operational reporting"
     ],
 
-    tags: ["Automation", "Operations", "Data Processing", "Google Apps Script"],
+    tags: ["Python", "Google Apps Script", "Automation", "Data Extraction", "Operations"],
 
     link: {
       title: "Automation Reporting System",
@@ -486,53 +487,118 @@ const PROJECTS = [
 
 const EDUCATION = [
   {
-    name: "Institut Teknologi Sepuluh Nopember",
-    degree: "Bachelor of Statistics",
-    period: "2022 – 2026 (Expected)",
+    name: "Institut Teknologi Sepuluh Nopember (ITS)",
+    degree: "Bachelor of Statistics (S.Stat)",
+    period: "August 2022 – August 2026",
+    grade: "3.54 / 4.00 (Cum Laude)",
     image: "/education/ITS.jpeg",
     link: "https://www.its.ac.id/statistika",
     highlight:
-      "Built strong foundations in statistical modeling, machine learning, and data-driven decision making through hands-on analytical projects and research.",
+      "Graduated Cum Laude with coursework in Machine Learning, Time Series, SQC, and Database Systems. Thesis focused on NLP multi-label classification and Demerit Control Charts for PELNI Mobile service quality monitoring.",
   },
   {
-    name: "SMAN 2 Madiun",
-    degree: "Senior High School Acceleration Program",
-    period: "2020 – 2022",
+    name: "SMA Negeri 2 Madiun",
+    degree: "Senior High School (Acceleration Program - Natural Sciences)",
+    period: "July 2020 – May 2022",
+    grade: "90.98 / 100",
     image: "/education/SMAN2MADIUN.jpeg",
     link: "https://smanegeri2madiun.sch.id",
     highlight:
-      "Completed an accelerated academic program with strong emphasis on analytical thinking, scientific writing, and competitive research development.",
+      "Completed national high school curriculum in an accelerated 2-year program. Awarded Best Scientific Paper in school competition for research development and structured analytical writing.",
   }
 ];
 
-const CERTIFICATIONS = [
+const CERTIFICATE = [
+  {
+    title: "ITS EFL (English Foreign Language) Test",
+    issuer: "Global Language Centre ITS · (2026 - 2028)",
+    image: "/certificate/EFL.jpg",
+    description:
+      "Certified English proficiency with a total score of 490 (Listening: 51, Grammar: 48, Reading: 48), demonstrating effective professional communication and comprehension skills."
+  },
+  {
+    title: "Technical Assessment: Business Analyst (T1)",
+    issuer: "Valitrait.ai · (2026 - 2027)",
+    image: "/certificate/Valitrait.jpg",
+    description:
+      "Validated core technical competencies in business analysis, requirements gathering, process evaluation, and data-driven problem solving in structured analytical environments."
+  },
+  {
+    title: "Google Ads Search Professional Certification",
+    issuer: "Google Skillshop · (2026 - 2027)",
+    image: "/certificate/GoogleAdsSearch.jpg",
+    description:
+      "Demonstrated expertise in search campaign strategy, audience targeting, data reporting, and economic data analysis to optimize digital marketing performance."
+  },
+  {
+    title: "Membangun Aplikasi Gen AI dengan Microsoft Azure",
+    issuer: "Dicoding Indonesia · (2026 - 2029)",
+    image: "/certificate/AzureGenAI.jpg",
+    description:
+      "Gained hands-on skills in integrating and developing Generative AI applications leveraging Microsoft Azure cloud architecture and statistical data analysis workflows."
+  },
+  {
+    title: "Penerapan Data Science dengan Microsoft Fabric",
+    issuer: "Dicoding Indonesia · (2026 - 2029)",
+    image: "/certificate/MicrosoftFabric.jpg",
+    description:
+      "Applied end-to-end data science workflows, analytics engineering, and automated machine learning pipelines within the integrated Microsoft Fabric ecosystem."
+  },
+  {
+    title: "Belajar Dasar Structured Query Language (SQL)",
+    issuer: "Dicoding Indonesia · (2026 - 2029)",
+    image: "/certificate/BasicSQL.jpg",
+    description:
+      "Mastered fundamental SQL operations including data querying, filtering, table joins, data aggregation, and database management for analytical decision support."
+  },
+  {
+    title: "Investment Risk Management",
+    issuer: "Coursera · 2026",
+    image: "/certificate/RiskManagement.jpg",
+    description:
+      "Learned core principles of risk identification, portfolio diversification, statistical evaluation, and quantitative risk management strategies in financial and business domains."
+  },
+  {
+    title: "Getting Started in Google Analytics",
+    issuer: "Coursera · 2026",
+    image: "/certificate/GoogleAnalytics.jpg",
+    description:
+      "Acquired foundational skills in web analytics, user behavior tracking, custom event monitoring, and performance data interpretation to optimize digital platforms."
+  },
+  {
+    title: "Business Analysis & Process Management",
+    issuer: "Coursera · 2026",
+    image: "/certificate/BusinessAnalysis.jpg",
+    description:
+      "Focused on business process modeling, process mapping, efficiency monitoring, and operational improvement techniques using quantitative data analysis."
+  },
   {
     title: "Master Data Science in Python",
     issuer: "Great Learning · 2025",
     image: "/certificate/MasterDataScience.jpg",
     description:
-      "Completed a comprehensive data science program covering regression, classification, clustering, and ensemble methods. Applied statistical reasoning and machine learning techniques to solve real-world analytical problems using Python."
+      "Completed a comprehensive data science program covering regression, classification, clustering, and ensemble methods using Python."
   },
   {
     title: "Leadership Organization Training",
     issuer: "HIMASTA ITS · 2024",
     image: "/certificate/LOT.jpg",
     description:
-      "Developed leadership and organizational management skills, including decision-making, team coordination, and problem-solving in collaborative environments. Strengthened the ability to lead initiatives and manage responsibilities effectively."
+      "Developed leadership and organizational management skills, including decision-making, team coordination, and problem-solving in collaborative environments."
   },
   {
     title: "Scientific Writing",
     issuer: "BEM ITS · 2022",
     image: "/certificate/ScientificWriting.jpg",
     description:
-      "Built foundational skills in academic writing, focusing on structuring research papers, developing evidence-based arguments, and presenting analytical insights in a clear and systematic format."
+      "Built foundational skills in academic writing, focusing on structuring research papers, developing evidence-based arguments, and presenting analytical insights."
   },
   {
     title: "Entrepreneurial Skills Training (LKMW-TD)",
     issuer: "BEM ITS · 2022",
     image: "/certificate/LKMW.jpg",
     description:
-      "Gained essential entrepreneurial knowledge, including business model development, opportunity analysis, and innovation-driven thinking. Strengthened strategic and problem-solving skills in a business context."
+      "Gained essential entrepreneurial knowledge, including business model development, opportunity analysis, and innovation-driven thinking."
   }
 ];
 
@@ -566,7 +632,7 @@ const ACHIEVEMENTS = [
 
 // 1. Marquee
 const Marquee = () => {
-  const words = ["Data Analytics", "Operations", "Quality Control", "Logistics", "Supply Chain", "Machine Learning", "Statistical Modeling", "Process Optimization"];
+  const words = ["Data Analytics", "Operations", "Quality Control", "Business Improvement", "Natural Language Processing", "Sentimen Costumer Satisfication", "Machine Learning", "Statistical Modeling", "Process Optimization"];
   
   return (
     <div className="w-full bg-emerald-600 dark:bg-emerald-900 text-white py-3 overflow-hidden flex whitespace-nowrap">
@@ -701,7 +767,7 @@ export default function App() {
     return Math.sqrt(dx * dx + dy * dy);
   };
 
-  type Certification = {
+  type Certificate = {
     title: string;
     issuer: string;
     image: string;
@@ -908,7 +974,7 @@ export default function App() {
 
       if (e.key === "ArrowRight") {
         setSelectedCert((prev) =>
-          prev !== null && prev < CERTIFICATIONS.length - 1 ? prev + 1 : prev
+          prev !== null && prev < CERTIFICATE.length - 1 ? prev + 1 : prev
         );
       }
 
@@ -939,13 +1005,13 @@ export default function App() {
     }
   }, [selectedCert]);
 
-  const chunkArray = (arr: Certification[], size: number): Certification[][] => {
-    return arr.reduce<Certification[][]>((acc, _, i) => {
+  const chunkArray = (arr: Certificate[], size: number): Certificate[][] => {
+    return arr.reduce<Certificate[][]>((acc, _, i) => {
       if (i % size === 0) acc.push(arr.slice(i, i + size));
       return acc;
     }, []);
   };
-  const certChunks = chunkArray(CERTIFICATIONS, 6);
+  const certChunks = chunkArray(CERTIFICATE, 6);
   const isMultiPage = certChunks.length > 1;
 
   useEffect(() => {
@@ -1083,7 +1149,7 @@ export default function App() {
 
     { name: "Projects", href: "#projects" },
     { name: "Education", href: "#education" },
-    { name: "Certifications", href: "#certifications" },
+    { name: "Certificate", href: "#certificate" },
     { name: "Contact", href: "#contact" }
   ]
 
@@ -1122,7 +1188,7 @@ export default function App() {
                 Giffani Rizky Febrian
               </span>
               <span className="text-xs text-slate-500 dark:text-slate-400">
-                Data Analyst
+                Data Analyst Enthusiast
               </span>
             </div>
 
@@ -1256,7 +1322,7 @@ export default function App() {
             >
               <span className="px-5 py-2 rounded-full bg-emerald-100 text-emerald-700 
              dark:bg-emerald-900/40 dark:text-emerald-300 text-xs font-bold tracking-widest uppercase border border-emerald-200 dark:border-emerald-800/50">
-                Portfolio 2026
+                Professional Portfolio
               </span>
             </motion.span>
 
@@ -1432,7 +1498,7 @@ export default function App() {
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border border-slate-200/50 dark:border-slate-800/50 shadow-xl">
                 <p className="text-sm font-semibold text-slate-900 dark:text-white flex items-center gap-3">
                   <Database size={18} className="text-emerald-500"/>  
-                  Data Meets Real-World Systems
+                  Unlocking Insights & Optimizing Operations 
                 </p>
               </div>
             </div>
@@ -1449,7 +1515,7 @@ export default function App() {
               {[
                 { label: "Data Analytics", icon: <LineChart size={20} /> },
                 { label: "Quality Improvement", icon: <Award size={20} /> },
-                { label: "Logistics Optimization", icon: <Settings size={20} /> },
+                { label: "Business Optimization", icon: <Presentation size={20} /> },
                 { label: "Process Automation", icon: <Code2 size={20} /> }
               ].map((highlight, idx) => (
                 <div 
@@ -2457,6 +2523,10 @@ export default function App() {
                   {edu.period}
                 </span>
 
+                <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 mb-1">
+                  GPA: {edu.grade}
+                </span>
+
                 {/* DOT */}
                 <div className="relative z-10">
                   <div
@@ -2536,8 +2606,8 @@ export default function App() {
         </div>
       </Section>
 
-      {/* TONE A: CERTIFICATION (SLIDE CARD)*/}
-      <Section id="certifications" className="bg-white dark:bg-slate-950">
+      {/* TONE A: CERTIFICATE (SLIDE CARD)*/}
+      <Section id="certificate" className="bg-white dark:bg-slate-950">
         <div
           className={`
             max-w-7xl mx-auto px-6 md:px-12 mb-16 relative z-10 transition-all duration-500
@@ -2590,7 +2660,7 @@ export default function App() {
             </span>
 
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              Certifications
+              Certificate
             </h2>
 
             <p
@@ -2616,7 +2686,7 @@ export default function App() {
                 transition={{ duration: 0.4 }}
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center"
               >
-                {certChunks[certPage].map((cert: Certification, idx: number) => (
+                {certChunks[certPage].map((cert: Certificate, idx: number) => (
                   <div key={idx} className="w-full max-w-sm">
                     
                     <motion.div
@@ -2693,7 +2763,7 @@ export default function App() {
               onClick={(e) => {
                 e.stopPropagation();
                 setSelectedCert((prev) =>
-                  prev !== null && prev < CERTIFICATIONS.length - 1 ? prev + 1 : prev
+                  prev !== null && prev < CERTIFICATE.length - 1 ? prev + 1 : prev
                 );
               }}
               className="absolute right-6 md:right-12 top-1/2 -translate-y-1/2 z-[60]
@@ -2712,7 +2782,7 @@ export default function App() {
                   setSelectedCert(selectedCert - 1);
                 } else if (
                   info.offset.x < -100 &&
-                  selectedCert < CERTIFICATIONS.length - 1
+                  selectedCert < CERTIFICATE.length - 1
                 ) {
                   setSelectedCert(selectedCert + 1);
                 }
@@ -2735,7 +2805,7 @@ export default function App() {
                 {/* LEFT IMAGE */}
                 <div className="md:w-[55%] h-full bg-black flex items-center justify-center">
                   <img
-                    src={CERTIFICATIONS[selectedCert].image}
+                    src={CERTIFICATE[selectedCert].image}
                     onClick={() => setIsZoomed(true)}
                     className="cursor-zoom-in max-h-full max-w-full object-contain transition duration-300 hover:scale-[1.02]"
                   />
@@ -2745,15 +2815,15 @@ export default function App() {
                 <div className="md:w-[45%] p-6 flex flex-col justify-center gap-4">
 
                   <h3 className="pointer-events-none text-xl font-bold text-slate-900 dark:text-white">
-                    {CERTIFICATIONS[selectedCert].title}
+                    {CERTIFICATE[selectedCert].title}
                   </h3>
 
                   <p className="pointer-events-none text-sm text-slate-500">
-                    {CERTIFICATIONS[selectedCert].issuer}
+                    {CERTIFICATE[selectedCert].issuer}
                   </p>
 
                   <p className="pointer-events-none text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                    {CERTIFICATIONS[selectedCert].description}
+                    {CERTIFICATE[selectedCert].description}
                   </p>
 
                 </div>
@@ -2761,7 +2831,7 @@ export default function App() {
 
               {/* DOT TRACK DRAGGABLE */}
               <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-30">
-                {CERTIFICATIONS.map((_, i) => (
+                {CERTIFICATE.map((_, i) => (
                   <button
                     key={i}
                     onClick={() => setSelectedCert(i)}
@@ -2795,7 +2865,7 @@ export default function App() {
                   setSelectedCert(selectedCert - 1);
                 } else if (
                   info.offset.x < -100 &&
-                  selectedCert < CERTIFICATIONS.length - 1
+                  selectedCert < CERTIFICATE.length - 1
                 ) {
                   setSelectedCert(selectedCert + 1);
                 }
@@ -2803,7 +2873,7 @@ export default function App() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               key={selectedCert}
-              src={CERTIFICATIONS[selectedCert].image}
+              src={CERTIFICATE[selectedCert].image}
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: doubleZoom ? 2 : scale, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
@@ -3060,7 +3130,7 @@ export default function App() {
           <div>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">Let's Connect</h2>
             <p className="text-slate-600 dark:text-slate-400 mb-10 text-lg leading-relaxed">
-              I am open to opportunities in Data Analytics, Operations, and Logistics, especially roles involving data-driven decision making and process improvement. Feel free to reach out to discuss potential collaborations!
+              I am open to opportunities in Data Analytics, Monitoring & Quality Control, Business Intelligence, and Operations, especially roles involving data-driven decision making and process improvement. Feel free to reach out to discuss potential collaborations!
             </p>
             
             <div className="flex flex-col gap-8">
@@ -3081,6 +3151,16 @@ export default function App() {
                 <div>
                   <p className="text-sm font-semibold text-slate-500 dark:text-slate-500 uppercase tracking-wider mb-1">LinkedIn</p>
                   <p className="text-lg font-bold text-slate-900 dark:text-white">linkedin.com/in/giffanifebrian</p>
+                </div>
+              </a>
+
+              <a href={PERSONAL_DATA.github} target="_blank" rel="noreferrer" className="flex items-center gap-6 group">
+                <div className="w-14 h-14 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 transition-all group-hover:scale-110 group-hover:bg-purple-50 dark:group-hover:bg-purple-900/20 group-hover:text-purple-500 group-hover:border-purple-200 dark:group-hover:border-purple-800/50 shadow-sm">
+                  <FaGithub size={24} />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-slate-500 dark:text-slate-500 uppercase tracking-wider mb-1">GitHub</p>
+                  <p className="text-lg font-bold text-slate-900 dark:text-white">github.com/giffaniriz25feb</p>
                 </div>
               </a>
 
@@ -3223,12 +3303,12 @@ export default function App() {
 
           {/* NAME */}
           <p className="text-slate-900 dark:text-white font-medium font-semibold text-sm leading-tight">
-            {PERSONAL_DATA.name}
+            Giffani Rizky Febrian, S.Stat.
           </p>
 
           {/* TAGLINE */}
           <p className="text-slate-500 dark:text-slate-400 text-sm max-w-md leading-snug">
-            Turning data into actionable insights for operational excellence.
+            Turning data into actionable insights for business excellence.
           </p>
 
           {/* COPYRIGHT */}
