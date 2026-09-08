@@ -1349,7 +1349,7 @@ export default function App() {
               {PERSONAL_DATA.headline} <br/><br/> {PERSONAL_DATA.shortIntro}
 
               <span className="block mt-4 text-sm text-emerald-600 dark:text-emerald-400 font-medium">
-                Specialized in Data Automation • Logistics Analytics • Process Optimization
+                Specialized in Data Automation • Business Analytics • Process Optimization
               </span>
             </motion.p>
 
